@@ -1,0 +1,818 @@
+@media(max-width:1336px){
+   .container{
+      padding: 0px 20px;
+   }
+   .header{
+      &__top {
+         padding: 10px 60px 0px 40px;
+		}
+      &__rows{
+         display: grid;
+         grid-template-columns: 130px 1fr auto;
+         align-items: center;
+      }
+   }
+   .navigation{
+      &__items{
+         display: flex;
+         justify-content: center;
+      }
+   }
+   .info {
+      padding-top: 90px;
+      padding-bottom: 280px;
+      &__girl{
+         position: absolute;
+         bottom: 20px;
+         width: 350px;
+      }
+      &__drinks{position: absolute;
+         right: 20px;
+         bottom: 50px;
+         width: 380px;
+      }
+      &__pic{
+         width: 500px;
+         margin: 0 auto;
+      }
+   }
+   .test{
+      &__items {
+         display: grid;
+         grid-template-columns: 50% 45%;
+         gap: 10px;
+         justify-content: space-between;
+         align-items: center;
+      }
+   }
+}
+@media(max-width:1200px){
+   .about{
+      &__row{
+         display: flex;
+         flex-direction: column;
+         gap: 0px;
+         text-align: center;
+      }
+      &__pic{
+         width: 500px;
+         margin: 0 auto;
+      }
+      &__item{
+         display: flex;
+         flex-direction: column;
+         gap: 3px;
+      }
+   }
+   .title{
+      &__contacts{
+         text-align: left;
+      }
+   }
+   .contacts{
+      &__palm {
+         width: 550px;
+         &_left{
+            display: none;
+         }
+         &_right{
+            top: -100px;
+         }
+      }
+      &__content {
+         padding-left: 20px;
+         margin-left: 0px;
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+      }
+      &__option a{
+         b{
+         }
+      }
+      &__girl{
+         display: none;
+         bottom: 0px;
+         width: 550px;
+      }
+      &__options {
+         width: 100%;
+         margin-left: -50px;
+      }
+   }
+}
+@media(max-width:970px){
+   .katalog{
+      &__info {
+         padding-top: 10px;
+         display: flex;
+         flex-direction: column;
+         gap: 5px;
+      }
+      &__name {
+         font-size: 25px;
+         font-weight: 600;
+      }
+      &__whatis {
+         font-size: 20px;
+         line-height: 23px;
+      }
+      &__list {
+         display: flex;
+         flex-direction: column;
+         gap: 5px;
+         list-style-type: none;
+         margin-left: 50px;
+      }
+   }
+   .test{padding: 50px 0px;
+      &__text {
+         b{
+            font-size: 35px;
+            line-height: 40px;
+         }
+      }
+   }
+   .contacts{
+      &__palm {
+         width: 400px;
+         &_left{
+            top: 120px;
+            left: -60px;
+         }
+      }
+      &__content{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+      }
+      &__options{
+         margin-left: 0px;
+      }
+      &__drinks {
+         width: 350px;
+      }
+   }
+   .form{
+      max-width: 350px;
+      padding: 10px 20px 30px;
+      &__button{
+         margin-top: 5px;
+      }
+      &__worning{
+         font-size: 10px;
+         line-height: 12px;
+      }
+   }
+}
+@media(min-width:850px){
+   .header__burger{
+      display: block;
+      border-radius: 50%;
+      position: relative;
+      width: 70px;
+      top:20px;
+      right: 10px;
+      height: 65px;
+      position: fixed;
+      margin: 0 auto;
+      z-index: 6;
+   }
+}
+@media(max-width:850px){
+   .header__burger{
+      display: block;
+      border-radius: 50%;
+      position: relative;
+      width: 70px;
+      top:10px;
+      right: 10px;
+      height: 65px;
+      position: fixed;
+      margin: 0 auto;
+      z-index: 6;
+   }
+   .top{
+      left: 15px;
+      top: 25px;
+      width: 40px;
+   }
+   .navigation{
+      display: none;
+      &__items{
+         display: flex;
+         justify-content: center;
+         gap: 15px;
+      }
+      &__items a{
+         color: black;
+         font-size: 20px;
+         font-weight: 500;
+      }
+   }
+   .header{
+      &__rows{
+         display: grid;
+         grid-template-columns: 80px 1fr auto;
+         align-items: center;
+      }
+      &__time{
+         font-size: 20px;
+         margin-bottom: -5px;
+      }
+      &__contacts{
+         margin-bottom: 5px;
+      }
+      &__phone a{
+         font-size: 20px;
+         position: relative;
+      }
+      &__phone a::before{
+         position: absolute;
+         content: url(../img/export/tel-mob.png);
+         left: -25px;
+         top: 1px;
+      }
+   }
+   .logo{width: 100%;
+   }
+   .info {
+      padding-top: 30px;
+      padding-bottom: 350px;
+      &__girl{
+         position: absolute;
+         bottom: 20px;
+         width: 280px;
+      }
+      &__drinks{position: absolute;
+         right: 20px;
+         bottom: 10px;
+         width: 330px;
+      }
+      &__pic{
+         width: 500px;
+      }
+      &__item{
+         max-width: 500px;
+      }
+      &__text{
+         font-size: 20px;
+         line-height: 25px;
+      }
+   }
+   .katalog{
+      &__info {
+         padding-top: 10px;
+         display: flex;
+         flex-direction: column;
+         gap: 5px;
+      }
+      &__types {
+         font-size: 16px;
+         line-height: 20px;
+      }
+      &__list {
+         gap: 12px;
+         margin-left: 30px;
+         margin-top: 15px;
+      }
+      &__list li{
+         font-size: 16px;
+         line-height: 20px;
+         position: relative;
+      }
+      &__list li::before{
+         position: absolute;
+         content: url(../img/export/yellowbollmob.png);
+         left: -30px;
+         top: -2x;
+      }
+      &__button{
+         margin-top: 25px;
+      }
+      &__button a{
+         color: black;
+         background: rgba(251, 216, 31, 1);
+         padding: 16px 30px;
+         font-size: 16px;
+         font-weight: 500;
+         border-radius: 30px 5px 30px 5px;
+      }
+   }
+   .test{padding: 50px 0px;
+      &__text {
+         &_yel {
+            margin: 0 auto;
+         }
+         b{
+            font-size: 35px;
+            line-height: 40px;
+         }
+      }
+      &__items{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+      }
+      &__pic{
+         width: 450px;
+         margin-top: 30px;
+      }
+      &__button{
+         margin-top: 15px;
+      }
+      &__button a{
+         padding: 16px 40px;
+         font-size: 16px;
+      }
+   }
+   .contacts{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__palm {
+         width: 400px;
+         &_left{
+            top: 120px;
+            left: -60px;
+         }
+         &_right{
+            top: -120px;
+            width: 450px;
+            right: -150px;
+         }
+      }
+      &__form {padding: 0px 20px;
+         position: static;
+         width: 100%;
+      }
+      &__content{
+         position: relative;
+      }
+      &__drinks{
+         position: absolute;
+         right: -200px;
+         bottom: 30px;
+      }
+      &__agua{
+         display: none;
+      }
+   }
+   .form{
+      max-width: 100%;
+      margin-bottom: 10px;
+      &__worning{
+         max-width: 400px;
+         margin: 0 auto;
+      }
+      &__button{
+         padding: 16px 60px;
+         font-size: 16px;
+      }
+   }
+}
+@media(max-width:715px){
+   .title{
+      padding: 30px 20px;
+      font-size: 20px;
+      line-height: 25px;
+      &__contacts{
+         padding: 20px 0px;
+         font-size: 20px;
+         line-height: 25px;
+      }
+   }
+   .header{
+      &__top{
+         padding: 10px;
+      }
+      &__rows{
+         display: flex;
+         flex-direction: column;
+         gap: 3px;
+      }
+      &__contacts{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         max-width: 200px;
+         margin-top: 5px;
+      }
+      &__time{
+         order: 2;
+      }
+      &__phone{
+         order: 1;
+      }
+   }
+   .logo{
+      margin-bottom: 0px;
+      width: 80px;
+   }
+   .navigation{
+      &__items{
+         display: flex;
+         gap: 20px;
+         list-style-type: none;
+         padding-top: 0px;
+      }
+      &__items a{
+         color: black;
+         font-size: 18px;
+         font-weight: 500;
+      }
+   }
+   .about{padding-bottom: 30px;
+      &__pic{
+         width: 300px;
+         margin: 0 auto;
+      }
+      &__text{
+         p{
+            margin: 10px 0px;
+         }
+      }
+      &__title{
+         max-width: 400px;
+         margin: 0 auto;
+         margin-top: 30px;
+         font-size: 18px;
+         line-height: 25px;
+      }
+   }
+   .katalog{
+      &__info {
+         padding-top: 10px;
+         display: flex;
+         flex-direction: column;
+         gap: 5px;
+      }
+      &__name{
+         font-size: 23px;
+      }
+      &__types {
+         font-size: 16px;
+         line-height: 20px;
+      }
+      &__whatis {
+         font-size: 18px;
+         line-height: 23px;
+      }
+   }
+   .strong{
+      &__items {
+         padding: 30px 0px 20px;
+         width: 100%;
+         display: grid;
+         grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+         row-gap: 20px;
+         column-gap: 20px;
+      }
+      &__item {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      &__pic {
+         width: 120px;
+      }
+   }
+   .contacts{
+      &__content{
+         padding-top: 50px;
+      }
+      &__drinks{
+         width: 250px;
+         position: absolute;
+         right: -120px;
+         bottom: 30px;
+      }
+      &__palm{
+         width: 300px;
+         &_right{
+            right: -100px;
+            top: -150px;
+         }
+      }
+   }
+}
+@media(min-width:600px){
+   .header{
+      &__list li{
+         margin-bottom: 25px;
+      }
+      &__link{
+         font-size: 20px;
+      }
+   }
+}
+@media(max-width:600px){
+   .wrapper{font-size: 16px;
+      line-height: 20px;
+   }
+   .info {
+      padding-top: 30px;
+      padding-bottom: 300px;
+      &__girl{
+         position: absolute;
+         bottom: 20px;
+         width: 250px;
+      }
+      &__drinks{position: absolute;
+         right: 20px;
+         bottom: 10px;
+         width: 280px;
+      }
+      &__pic{
+         width: 400px;
+      }
+      &__item{
+         max-width: 400px;
+      }
+      &__text{
+         font-size: 18px;
+         line-height: 23px;
+      }
+      &__button{
+         margin-top: 35px;
+         text-align: center;
+      }
+      &__button a{
+         color: black;
+         background: rgba(251, 216, 31, 1);
+         padding: 16px 50px;
+         font-size: 16px;
+         font-weight: 500;
+         border-radius: 30px 5px 30px 5px;
+      }
+   }
+   .katalog{
+      &__items{
+         margin: 30px 0px;
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+      }
+      &__item {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+      &__info{
+         order: 1;
+         padding-left: 0px;
+      }
+      &__pic {
+         order: 2;
+         width: 100%;
+         margin: 0 auto;
+      }
+      &__picboll{
+         &_left {
+            position: absolute;
+            left: 46%;
+            bottom: -15px;
+            z-index: 2;
+         }
+         &_right {
+            position: absolute;
+            left: 46%;
+            bottom: -15px;
+            z-index: 2;
+         }
+      }
+      &__button{
+         text-align: center;
+      }
+   }
+   .strong{
+      &__item {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+      }
+   }
+   .header{
+      &__link{
+         font-size: 18px;
+      }
+   }
+   .contacts{
+      &__content{
+         padding-top: 50px;
+      }
+      &__drinks{
+         width: 180px;
+         position: absolute;
+         right: -20px;
+         bottom: 60px;
+      }
+      &__palm{
+         width: 150px;
+         &_right{
+            right: -40px;
+            top: -40px;
+         }
+         &_left{
+            display: block;
+            position: absolute;
+            left: -40px;
+            top: -40px;
+         }
+      }
+   }
+}
+@media(max-width:500px){
+   .title{
+      font-size: 18px;
+      line-height: 23px;
+      &__contacts{
+         font-size: 18px;
+         line-height: 23px;
+      }
+   }
+   .header{
+      &__image{
+         &_dex{
+            display: none;
+         }
+         &_mob{
+            display: block;
+         }
+      }
+   }
+   .info{
+      &__pic{
+         &_dex{
+            display: none;
+         }
+         &_mob{
+            display: block;
+         }
+      }
+      &__image{
+         &_dex{
+            display: none;
+         }
+         &_mob{
+            display: block;
+         }
+      }
+   }
+   .contacts{
+      &__content{
+         padding: 0px 10px;
+         padding-top: 50px;
+      }
+      &__drinks{
+        display: none;
+      }
+      &__option{
+         
+      }
+      &__palm{
+         width: 130px;
+         &_right{
+            right: -40px;
+            top: -50px;
+         }
+         &_left{
+            display: block;
+            position: absolute;
+            left: -40px;
+            top: -50px;
+         }
+      }
+      &__form{
+         padding: 0px 5px;
+         margin-top: 20px;
+      }
+   }
+   .footer {
+   padding: 0px 0px 10px;
+      &__copy {
+         text-align: center;
+         font-size: 12px;
+      }
+   }
+}
+@media(max-width:450px){
+   .header__burger{
+      right: 0px;
+   }
+   .header{
+      &__contacts{
+         margin-left: 25px;
+      }
+   }
+   .navigation{
+      &__items{
+         display: flex;
+         gap: 10px;
+      }
+   }
+   .info {
+      padding-top: 30px;
+      padding-bottom: 350px;
+      &__girl{
+         position: absolute;
+         bottom: 20px;
+         left: -40px;
+         width: 250px;
+      }
+      &__drinks{position: absolute;
+         right: 10px;
+         bottom: 0px;
+         width: 230px;
+      }
+      &__pic{
+         width: 280px;
+      }
+      &__item{
+         max-width: 300px;
+      }
+      &__text{
+         font-size: 16px;
+         line-height: 20px;
+         margin-top: 10px;
+      }
+      &__button{
+         margin-top: 25px;
+         text-align: center;
+      }
+      &__button a{
+         padding: 16px 50px;
+         font-size: 16px;
+      }
+   }
+   .about{
+      &__pic{
+         width: 270px;
+         margin: 0 auto;
+      }
+      &__items{
+         margin-top: 20px;
+         width: 100%;
+         display: grid;
+         grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+         row-gap: 20px; 
+      }
+      &__text{
+         p{
+            text-align: left;
+         }
+      }
+   }
+   .options{
+      &__pic {
+         width: 80px;
+      }
+   }
+   .katalog{
+      &__items{
+         margin: 10px 0px;
+      }
+   }
+   .strong{
+      &__item {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0px 10px;
+      }
+      &__pic{
+         width: 100px;
+         margin-bottom: 10px;
+      }
+   }
+   .test{padding: 50px 0px;
+      &__text {
+         b{
+            font-size: 25px;
+            line-height: 30px;
+         }
+      }
+      &__pic{
+         width: 280px;
+         margin-top: 30px;
+      }
+   }
+   .contacts{
+      &__icon {
+         width: 20px;
+      }
+   }
+}
+@media(max-width:380px){
+   .test{padding: 50px 0px;
+      &__text {
+         b{
+            font-size: 20px;
+            line-height: 25px;
+         }
+      }
+   }
+}
